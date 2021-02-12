@@ -1,0 +1,36 @@
+:root {
+  --red: #bb2528;
+  --green: #064e3b;
+}
+
+body {
+  background-color: var(--green);
+  color: var(--red);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.amount {
+  padding: 5px;
+}
+
+#btn {
+  margin: 10px;
+  background-color: var(--green);
+  color: var(--red);
+  border: 3px solid var(--red);
+}
+
+table,
+th,
+td {
+  border: 3px solid var(--red);
+  border-collapse: collapse;
+}
+
+#dnm {
+  margin: 1rem auto;
+}
